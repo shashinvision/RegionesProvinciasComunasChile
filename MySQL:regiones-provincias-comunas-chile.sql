@@ -1,3 +1,6 @@
+Script comunas, regiones, provincias Febrero 2019
+
+
 DROP TABLE IF EXISTS `comunas`;
 
 CREATE TABLE `comunas` (
