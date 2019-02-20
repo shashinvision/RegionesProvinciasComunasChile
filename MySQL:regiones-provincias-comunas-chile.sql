@@ -4,7 +4,7 @@ CREATE TABLE `comunas` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `comuna` varchar(64) NOT NULL,
   `provincia_id` int(11) NOT NULL,
-  PRIMARY KEY (`comuna_id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=346 DEFAULT CHARSET=utf8;
 
 INSERT INTO `comunas` (`id`,`comuna`,`provincia_id`)
@@ -271,7 +271,6 @@ VALUES
 	(260,'Renaico',41),
 	(261,'Traiguén',41),
 	(262,'Victoria',41),
-	
 	(263,'Temuco',42),
 	(264,'Carahue',42),
 	(265,'Cholchol',42),
@@ -288,7 +287,7 @@ VALUES
 	(276,'Perquenco',42),
 	(277,'Pitrufquén',42),
 	(278,'Pucón',42),
-	(279,'Saavedra'428),
+	(279,'Saavedra',42),
 	(280,'Teodoro Schmidt',42),
 	(281,'Toltén',42),
 	(282,'Vilcún',42),
